@@ -57,13 +57,13 @@ def visualize_conv_filters_backbone(model, save_fp=None):
 
 
 
-"""
+
 # testing
 #model = rn.resnet50(pretrained=True)
 model = rn.get_grayscale_rn50_backbone(pre_trained=True, with_pooling=False)
 save_fp = None
 visualize_conv_filters(model)
-"""
+
 
 
 
